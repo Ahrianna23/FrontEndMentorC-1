@@ -1,0 +1,347 @@
+/* attribution styling from frontendmentor */
+.attribution { font-size: 11px; text-align: center; position: absolute;bottom: 0; width: 100%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+/* Girl start coding this suga honay iceeey teaaaa */
+
+
+@media only screen and (min-width: 475px) {
+body {
+  margin: 0;
+  background-image: url('images/pattern-curve.svg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: -100px bottom;
+
+  }
+  .container {
+    width:75%;
+    max-width: 375px;
+    height: 800px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+  }
+
+  .slide-card {
+    width: 100%;
+    height: 700px;
+    padding: 8% 5% 5% 5%;
+    font-family: 'Inter';
+    position: relative;
+    display: none;
+    background-image: url('images/pattern-bg.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  /*
+  .slide-card:nth-child(2) {
+    display: none;
+  }*/
+  .slide-card h1 {
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 150%;
+    width: 100%;
+    float: left;
+    padding: 100px 0 0;
+    text-align: center;
+    margin-top: 0;
+    z-index: 2;
+    color: hsl(240, 38%, 20%);
+    background-image: url('images/pattern-quotes.svg');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position:120px 70px ;
+
+  }
+
+  .job-title{
+    width: 100%;
+    float: left;
+    font-size: 1em;
+
+  }
+  .job-title h6 {
+    margin: 5px 0 0 0;
+    width: 100%;
+    font-weight: 700;
+    color: hsl(240, 38%, 20%);
+    font-size: 1em;
+    text-align: center;
+    float: left;
+  }
+  .job-title h6:nth-child(2){
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+  }
+  .slide-image {
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    margin-top: 0px;
+    z-index: 0;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 25px 5px 50px rgba(0, 0, 0, 0.3);
+  }
+
+  /*Slider Controls*/
+  .slider-controls {
+    position: absolute;
+    background: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    right:37%;
+    top:41%;
+    padding: 3px 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px hsl(240, 18%, 77%);
+  }
+
+  .arrow {
+    color: hsl(240, 18%, 77%);
+    font-size: 1.5em;
+    width: 50%;
+    float: left;
+    transition: all ease 300ms;
+  }
+  .arrow:nth-child(2) {
+    text-align: right;
+  }
+  .arrow:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0;
+    background-image: url('images/pattern-curve.svg'), url('images/pattern-quotes.svg');
+
+    background-size:100%, 70px;
+    background-repeat: no-repeat;
+    background-position: -50px 480px, 10% 28% ;
+
+
+    }
+.container {
+  width:100%;
+  max-width: 1100px;
+  height: 560px;
+  overflow-x: hidden;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  background-image: url('images/pattern-bg.svg');
+  background-size:480px;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  position: relative;
+  z-index: 0;
+}
+
+.slide-card {
+  width: 100%;
+  height: 310px;
+  padding: 8% 5% 5% 2%;
+  font-family: 'Inter';
+  position: relative;
+  display: none;
+  background-image: none;
+}
+/*
+.slide-card:nth-child(2) {
+  display: none;
+}*/
+.slide-card h1 {
+  font-weight: 300;
+  font-size: 1.6em;
+  width: 50%;
+  float: left;
+  padding: 40px 0 0;
+  text-align: left;
+  z-index: 2;
+  color: hsl(240, 38%, 20%);
+  background-image: none;
+}
+
+.job-title{
+  width: 65%;
+  float: left;
+  font-size: 1em;
+}
+.job-title h6 {
+  margin: 5px 5px 5px 0;
+  width: auto;
+  font-weight: 700;
+  color: hsl(240, 38%, 20%);
+  font-size: 1em;
+  float: left;
+}
+.job-title h6:nth-child(2){
+  font-weight: 500;
+  color: hsl(240, 18%, 77%);
+}
+.slide-image {
+  position: absolute;
+  top: 35px;
+  right: 105px;
+  z-index: -1;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 25px 5px 30px rgba(0, 0, 0, 0.1);
+}
+.slide-image:hover {
+  cursor: pointer;
+}
+
+/*Slider Controls*/
+.slider-controls {
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  top: auto;
+  right:200px;
+  bottom:25%;
+  padding: 3px 15px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 30px hsl(240, 18%, 77%);
+}
+
+.arrow {
+  color: hsl(240, 18%, 77%);
+  font-size: 1.7em;
+  width: 50%;
+  float: left;
+  transition: all ease 300ms;
+}
+.arrow:nth-child(2) {
+  text-align: right;
+}
+.arrow:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+}
+@media only screen and (min-width: 1300px) {
+  body {
+    margin: 0;
+    background-image: url('images/pattern-curve.svg'), url('images/pattern-quotes.svg');
+
+    background-size:90px;
+    background-repeat: no-repeat;
+    background-position: -50px 480px, 305px 160px ;
+
+
+    }
+  .container {
+    width:75%;
+    max-width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    background-image: url('images/pattern-bg.svg');
+    background-size:515px;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+    position: relative;
+    z-index: 0;
+  }
+
+  .slide-card {
+    width: 100%;
+    height: 460px;
+    box-sizing: border-box;;
+    padding: 8% 5% 5% 2%;
+    font-family: 'Inter';
+    position: relative;
+    display: none;
+  }
+  /*
+  .slide-card:nth-child(2) {
+    display: none;
+  }*/
+  .slide-card h1 {
+    font-weight: 300;
+    font-size: 1.75em;
+    width: 65%;
+    float: left;
+    padding: 40px 0 0;
+    z-index: 2;
+    color: hsl(240, 38%, 20%);
+  }
+
+  .job-title{
+    width: 65%;
+    float: left;
+    font-size: 1em;
+  }
+  .job-title h6 {
+    margin: 5px 5px 5px 0;
+    width: auto;
+    font-weight: 700;
+    color: hsl(240, 38%, 20%);
+    font-size: 1em;
+    float: left;
+  }
+  .job-title h6:nth-child(2){
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+  }
+  .slide-image {
+    position: absolute;
+    top: 25px;
+    right: 55px;
+    z-index: -1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 25px 5px 50px rgba(0, 0, 0, 0.3);
+  }
+  .slide-image:hover {
+    cursor: pointer;
+  }
+
+  /*Slider Controls*/
+  .slider-controls {
+    position: absolute;
+    background: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    right:330px;
+    bottom:30px;
+    padding: 3px 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px hsl(240, 18%, 77%);
+  }
+
+  .arrow {
+    color: hsl(240, 18%, 77%);
+    font-size: 1.7em;
+    width: 50%;
+    float: left;
+    transition: all ease 300ms;
+  }
+  .arrow:nth-child(2) {
+    text-align: right;
+  }
+  .arrow:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+}
